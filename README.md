@@ -4,7 +4,7 @@ Contemporary Nowy Targ in a pixel-art day/night switch: the Rynek of the capital
 
 [Live demo](https://preacherxp.github.io/nowy-targ-switch/) · [Download 60 fps MP4](nowy-targ-day-night-60fps.mp4)
 
-The seven-second, 800 × 500 H.264 recording is made by the Export video workflow and includes the entire animated switch, frame and moving glass lens.
+The seven-second, 1600 × 1000 H.264 recording is made by the Export video workflow and includes the entire animated switch, frame and moving glass lens.
 
 The scene is a compressed panorama, not one street view. Everything on the ground stands on the Rynek, but not in this order; St Catherine's tower is brought in from 150 m to the north-west; and the town hall is turned round so that the Tatras, which lie to the south, stand behind it. The season is the Jarmark Podhalański (14–16 August 2026). A highlander cart behind two piebald horses, the yellow MZK bus and two touring cyclists take the cobbled street in turn. A cheese stall and a sheepskin stall stand for the town's Thursday and Saturday market. A fiddle trio plays by the town hall, the fountain runs, both clocks show the hour, a tow plane pulls a glider towards the range, and a balloon drifts over in the evening. A quick flick of the lens sends the pigeons off the pavilion roof.
 
