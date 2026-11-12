@@ -77,6 +77,9 @@ jobs:
           "$tools/ffprobe-static/bin/linux/x64/ffprobe" -v error -select_streams v -show_entries stream=codec_name,width,height,r_frame_rate,nb_frames -of csv=p=0 nowy-targ-instagram-4x5-60fps.mp4
           # The cover is the night hold: the lens at rest over the lit city.
           "$tools/ffmpeg-static/ffmpeg" -y -i capture/nowy-targ/frames-4x5/210.png -q:v 2 nowy-targ-instagram-cover.jpg
+          # One cover per phase the readout names, rendered with the lens at rest.
+          test "$(ls capture/nowy-targ/covers | wc -l)" -eq 6
+          for phase in 1-daytime 2-golden-hour 3-signs-coming-on 4-night 5-dawn 6-morning; do "$tools/ffmpeg-static/ffmpeg" -v error -y -i capture/nowy-targ/covers/$phase.png -q:v 2 nowy-targ-instagram-cover-$phase.jpg; done
       - uses: actions/upload-artifact@v5
         with:
           name: nowy-targ-review
@@ -88,7 +91,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          git add nowy-targ-day-night-60fps.mp4 nowy-targ-instagram-4x5-60fps.mp4 nowy-targ-instagram-cover.jpg
+          git add nowy-targ-day-night-60fps.mp4 nowy-targ-instagram-4x5-60fps.mp4 nowy-targ-instagram-cover.jpg nowy-targ-instagram-cover-*.jpg
           if git diff --cached --quiet; then echo "Exports unchanged"; exit 0; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

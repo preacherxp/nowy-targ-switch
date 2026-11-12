@@ -2,7 +2,7 @@
 
 Contemporary Nowy Targ in a pixel-art day/night switch: the Rynek of the capital of Podhale on a fair day in August, with the yellow town hall under its two limes, the black helmet of St Catherine's, the St Jan Kanty shrine, the café pavilion, and the Tatra range behind.
 
-[Live demo](https://preacherxp.github.io/nowy-targ-switch/) · [Download 60 fps MP4](nowy-targ-day-night-60fps.mp4) · [Download Instagram 4:5 MP4](nowy-targ-instagram-4x5-60fps.mp4) · [Download Instagram cover](nowy-targ-instagram-cover.jpg)
+[Live demo](https://preacherxp.github.io/nowy-targ-switch/) · [Download 60 fps MP4](nowy-targ-day-night-60fps.mp4) · [Download Instagram 4:5 MP4](nowy-targ-instagram-4x5-60fps.mp4) · [Download Instagram cover](nowy-targ-instagram-cover.jpg) · Phase covers: [day](nowy-targ-instagram-cover-1-daytime.jpg), [golden hour](nowy-targ-instagram-cover-2-golden-hour.jpg), [signs on](nowy-targ-instagram-cover-3-signs-coming-on.jpg), [night](nowy-targ-instagram-cover-4-night.jpg), [dawn](nowy-targ-instagram-cover-5-dawn.jpg), [morning](nowy-targ-instagram-cover-6-morning.jpg)
 
 The seven-second, 1600 × 1000 H.264 recording is made by the Export video workflow and includes the entire animated switch, frame and moving glass lens.
 
